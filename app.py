@@ -70,7 +70,5 @@ if __name__=="__main__":
     final= st.button("predict")
     if final:
         st.write('**the avilable bike is**')
-        st.write(vechicle)
+        st.markdown(f"<div style='font-size: 36px; width: 300px; height: 100px; background-color: yellow;'>{vechicle}</div>", unsafe_allow_html=True)
     
-    
-# print(instance_prediction(input_list=input1
