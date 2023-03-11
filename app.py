@@ -11,7 +11,6 @@ import datetime
 warnings.filterwarnings('ignore')
 # @st.cache_data
 
-#start_training_pipeline()
 if __name__=="__main__":
     
     st.header("Bike Rental System")
